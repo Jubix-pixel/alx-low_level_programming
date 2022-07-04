@@ -1,7 +1,7 @@
 #include <stdio.h>
 /**
- * main - Prints the alphabetic 
- * 
+ * main - Prints the alphabetic
+ *
  * Return: Always (Success)
  */
 int main(void)
