@@ -14,7 +14,7 @@ int main(void)
 	/**
 	 * while (i < 10)
 	 * {
-	 *        putcha(i);
+	 *        putchar(i);
 	 * }
 	 */
 
