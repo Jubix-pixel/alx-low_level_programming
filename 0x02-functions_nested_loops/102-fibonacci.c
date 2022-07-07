@@ -5,7 +5,7 @@
  * followed by a new line
  * Return: Always 0 (Success)
  */
-int main (void)
+int main(void)
 {
 	long int i, j, k, next;
 
@@ -18,7 +18,7 @@ int main (void)
 	{
 		if (j != 20365011074)
 			{
-				printf("%ld,", j);
+				printf("%ld, ", j);
 			} else
 			{ 
 				printf("%ld\n", j);
