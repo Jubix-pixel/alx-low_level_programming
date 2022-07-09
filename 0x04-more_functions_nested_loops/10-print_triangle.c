@@ -17,11 +17,13 @@ void print_triangle(int size)
 		{
 			for (j = i; j < size; j++)
 			{
+
 				_putchar(' ');
 			}
 
 			for (j = i; j <= i; j++)
 			{
+
 				_putchar('#');
 			}
 
@@ -29,4 +31,3 @@ void print_triangle(int size)
 		}
 	}
 }
-
