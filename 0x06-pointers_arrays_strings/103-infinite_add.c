@@ -19,10 +19,10 @@ char *infinite_add(char *n1, char *n2, char *r, int size_r)
 		c2++;
 	if (c1 >= c2)
 		bg = c1;
-	else 
+	else
 		bg = c2;
 	if (size_r <= bg + 1)
-		returnn (0);
+		return (0);
 	r[bg + 1] = '\0';
 	c1--, c2--, size_r--;
 	dr1 = *(n1 + c1) - 48, dr2 = *(n2 + c2) - 48;
@@ -31,7 +31,7 @@ char *infinite_add(char *n1, char *n2, char *r, int size_r)
 		op = dr1 + dr2 + add;
 		if (op >= 10)
 			add = op / 10;
-		else 
+		else
 			add = 0;
 		if (op > 10)
 			*(r + bg) = (op % 10) + 48;
