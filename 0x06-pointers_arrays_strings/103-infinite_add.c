@@ -2,9 +2,9 @@
 #include <stdio.h>
 /**
  * infinite_add - adds two numbers.
- * @n1: The string containing the first number to be added.
- * @n2: The string containing the second number to be added.
- * @r: The buffer to store the result.
+ * @n1: number one.
+ * @n2: number two.
+ * @r: buffer that the function will use to store the result.
  * @size_r: buffer size:
  * Return: the pointer to dest.
  */
