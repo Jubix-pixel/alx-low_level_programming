@@ -21,7 +21,7 @@ char alphabet[] = "abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ";
 				break;
 			}
 		}
-		counnt++;
+		count++;
 	}
 
 	return (s);
