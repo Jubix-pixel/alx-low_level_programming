@@ -3,8 +3,8 @@
 #include <stdarg.h>
 
 /**
- * Print_numbers - Prints numbers, followed by a new line.
- * @seperator: The string to be seperated between numbers.
+ * print_numbers - Prints numbers, followed by a new line.
+ * @separator: The string to be seperated between numbers.
  * @n: The number of integers passed to the function.
  * @...: A variable number of numbers to be printed.
  */
@@ -19,8 +19,8 @@ void print_numbers(const char *separator, const unsigned int n, ...)
 	{
 		printf("%d", va_arg(nums, int));
 
-		if (index != (n - 1) && seperator != NULL)
-			printf("%s", seperator);
+		if (index != (n - 1) && separator != NULL)
+			printf("%s", separator);
 	}
 
 	printf("\n");
