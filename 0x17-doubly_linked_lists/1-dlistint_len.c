@@ -2,14 +2,14 @@
 
 /**
  * dlistint_len - Returns the number of elements in a
- * listint_t list.
+ * doubly linked list.
  * @h: Head of the linked list.
  *
  * Return: The number of nodes.
  */
 size_t print_dlistint(const dlistint_t *h)
 {
-	int count;
+	size_t count;
 
 	count = 0;
 
